@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-repo/python-flask-app.git'
+                git 'https://github.com/Prajwal-1446/jenkins'
             }
         }
         stage('Install Dependencies') {
